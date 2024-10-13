@@ -6,5 +6,4 @@ cat coordinates.tsv | python make_matrix.py > matrix.csv
 
 tr -d '[,]' < matrix.csv > cleaned_matrix.dat
 
-#plot using gnuplot
 gnuplot GNU_plot.gp
